@@ -6,5 +6,6 @@ class App < Sinatra::Base
     "<h1>Buster's Best Bowling Alley</h1>"
     "<h2>Bet You Can't Bowl A Strike Every Time</h2>"
     "<p>97 Bowling Alley Lane, Boulder CO</p>"
+    erb :index 
   end 
 end
